@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": "Motion Design",
+      "titles": ["Animation Handbook", "Material Motion"],
+      "descriptions": ["InVision's handbook for product design animation.", "Google’s guidelines for motion design."],
+      "types": ["ebook", "website"],
+      "urls": ["https://www.designbetter.co/animation-handbook", "https://material.io/design/motion/understanding-motion.html"]
+    },
+    {
+      "id": "Artificial Intelligence",
+      "titles": ["AI for UX Designers", "A Visual Introduction to Machine Learning", "AI for Everyone"],
+      "descriptions": ["Google’s guide to designing AI products.", "An excellent visual introduction to Machine Learning.", "A non-technical course for anyone who wants to learn about AI."],
+      "types": ["website", "website", "course"],
+      "urls": ["https://pair.withgoogle.com/", "http://www.r2d3.us/visual-intro-to-machine-learning-part-1", "https://www.deeplearning.ai/ai-for-everyone/"]
+    },
+    {
+      "id": "UX Design",
+      "titles": ["Growth Design", "UX Design Fundamentals", "Laws of UX"],
+      "descriptions": ["Learn UX best practices through excellent interactive case studies.", "A hands-on UX course that guides you through designing and building prototypes.", "A collection of maxims and principles for building user interfaces."],
+      "types": ["website", "course", "website"],
+      "urls": ["https://growth.design/", "https://www.coursera.org/learn/ux-design-fundamentals", "https://lawsofux.com/"]
+    },
+    {
+      "id": "Coding",
+      "titles": ["Practical JavaScript", "Harvard’s Introduction to Computer Science", "Codecademy"],
+      "descriptions": ["Insanely great course on learning how to code.", "Take a full Harvard computer science course online for free.", "Fun, interactive coding tutorials."],
+      "types": ["course", "course", "course"],
+      "urls": ["https://watchandcode.com/p/practical-javascript", "https://online-learning.harvard.edu/course/cs50-introduction-computer-science", "https://www.codecademy.com/"]
+    },
+    {
+      "id": "Illustration",
+      "titles": ["Gal Shir’s YouTube Series", "Adobe’s Illustration Guides"],
+      "descriptions": ["Observe the full process of a world-class illustrator.", "Hone your drawing skills through a variety of guides."],
+      "types": ["videos", "articles"],
+      "urls": ["https://www.youtube.com/galshir", "https://www.adobe.com/creativecloud/illustration/discover.html"]
+    },
+    {
+      "id": "Leadership",
+      "titles": ["Design Leadership Handbook", "Design Principles", "Google’s Guide to People Processes"],
+      "descriptions": ["Expert advice on how to lead your team and advance your career.", "Discover principles that guide great design teams around the world.", "Practices, research, and tools to improve your people processes."],
+      "types": ["ebook", "website", "toolkit"],
+      "urls": ["https://www.designbetter.co/design-leadership-handbook", "https://principles.design/", "https://rework.withgoogle.com/guides/"]
+    },
+    {
+      "id": "UI Design",
+      "titles": ["Visual Elements of User Interface Design", "Checklist Design", "How to become a self-taught UI/UX designer"],
+      "descriptions": ["A free online university-level course in UI design.", "A collection of best practices for designing interfaces.", "Lessons and advice from a self-taught designer."],
+      "types": ["course", "website", "article"],
+      "urls": ["https://www.coursera.org/learn/visual-elements-user-interface-design", "https://www.checklist.design/", "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c"]
+    },
+    {
+      "id": "User Research",
+      "titles": ["IDEO Design Methods", "Guide to User Research", "Google Ventures’ Guide to User Research"],
+      "descriptions": ["Best practices from one of the top design studios in the world.", "A curated collection of 250+ resources & tools dedicated to user research.", "A collection of articles on best practices for user research."],
+      "types": ["toolkit", "toolkit", "articles"],
+      "urls": ["https://www.designkit.org/methods", "http://guidetouxr.com/", "https://library.gv.com/gv-guide-to-research-847cfb08fcef"]
+    },
+    {
+      "id": "DesignOps",
+      "titles": ["5-min Guide to DesignOps", "DesignOps Handbook", "Design Sprint Kit"],
+      "descriptions": ["A nice, quick overview of DesignOps.", "An ebook that provides a full overview of DesignOps.", "Google’s online guide to leading a team through a design sprint."],
+      "types": ["article", "ebook", "toolkit"],
+      "urls": ["https://uxdesign.cc/designops-the-questions-youre-probably-asking-yourself-now-fdac491bfe4f", "https://www.designbetter.co/designops-handbook", "https://designsprintkit.withgoogle.com/"]
+    },
+    {
+      "id": "Career Guidance",
+      "titles": ["The Year of the Looking Glass", "How to Have a Successful UX Career"],
+      "descriptions": ["Excellent articles by Julie Zhuo, VP of Product Design at Facebook.", "A quick guide to habits and skills that will help you as a designer."],
+      "types": ["articles", "article"],
+      "urls": ["https://medium.com/the-year-of-the-looking-glass", "https://medium.com/google-design/how-to-have-a-successful-ux-career-at-google-or-anywhere-else-ea63624f74de"]
+    }
+  ]
+}

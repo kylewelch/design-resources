@@ -1,0 +1,394 @@
+
+@font-face {
+  font-family: "Campton";
+  src: url('./fonts/campton-black.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url('./fonts/campton-bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url('./fonts/campton-semibold.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url('./fonts/campton-medium.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url('./fonts/campton-book.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  margin: 0 0 140px;
+  font-family: 'Campton', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F3F3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.intro-section {
+  background-color: #fff;
+  width: 100%;
+  padding: 60px 0 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav {
+  background-color: #fff;
+}
+
+.logo-container {
+  padding: 20px 0 0 35px;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  margin: 0 35px;
+}
+
+.intro-text {
+  background-image: url(./img/heading-bg.svg);
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
+
+.mobile-img, .mobile-heading {
+  display: none;
+}
+
+.mobile-heading {
+  line-height: 1.5;
+  margin: 20px 35px 60px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.intro-heading {
+  font-size: 45px;
+  max-width: 280px;
+  line-height: 1.4;
+  margin: 10px 0 22px 20px;
+}
+
+.divider {
+  width: 38px;
+  height: 7px;
+  background-color: #7373f9;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+
+.intro-sub-heading {
+  font-size: 22px;
+  line-height: 1.5;
+  opacity: .7;
+  font-weight: 300;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.intro-image {
+  width: 504px;
+  height: 489px;
+  position: relative;
+  z-index: 0;
+  transform: scale(.85);
+}
+
+.intro1 {
+  top: 89px;
+  left: 189px;
+  z-index: 5;
+  position: absolute;
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.intro2 {
+  top: 157px;
+  left: 86px;
+  z-index: 4;
+  position: absolute;
+  transform: translatex(0px);
+	animation: floatSide 7s ease-in-out infinite;
+}
+
+.intro3 {
+  top: 299px;
+  left: 253px;
+  z-index: 3;
+  position: absolute;
+  transform: translatex(0px);
+	animation: floatSlow 8s ease-in-out infinite;
+}
+
+.intro4 {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  position: absolute;
+  transform: translatey(0px);
+	animation: floatSlow2 10s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatSide {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-8px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
+
+@keyframes floatSlow {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-12px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
+
+@keyframes floatSlow2 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.resource-list {
+  max-width: 960px;
+  margin: auto;
+}
+
+.card-section {
+  margin: 80px 0;
+}
+
+.card-section-header {
+  font-size: 28px;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+  display: flex;
+  margin: 30px 0;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .12);
+  cursor: pointer;
+}
+
+.card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img {
+  border-radius: 10px 0 0 10px;
+  flex-grow: 0;
+  flex-basis: 0;
+  flex-shrink: 0;
+  width: 220px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-heading {
+  margin: 0 0 7px;
+  font-size: 22px;
+  max-width: 100%;
+}
+
+.card-description {
+  margin: 0;
+  line-height: 1.5;
+  opacity: .66;
+  font-weight: 400;
+  max-width: 100%;
+}
+
+.card-badge {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: gray;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 25px;
+}
+
+.article, .articles {
+  background-color: #FF7092; 
+}
+
+.ebook {
+  background-color: #7AC133;
+}
+
+.course {
+  background-color: #FFA84F;
+}
+
+.videos {
+  background-color: #7AC133;
+}
+
+.toolkit {
+  background-color: #51BFD8;
+}
+
+.website {
+  background-color: #7E73F9;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro-image {
+    transform: scale(.65);
+    margin-left: -80px;
+  }
+  .resource-list {
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .card-content {
+    padding: 25px;
+  }
+  .logo-container {
+    padding: 30px 0 22px;
+    display: flex;
+    justify-content: center;
+  }
+  .intro-image, .intro-content {
+    display: none;
+  }
+  .intro-section {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-img {
+    display: block;
+    max-width: 65%;
+  }
+  .mobile-heading {
+    display: block;
+  }
+  .card-img {
+    width: 192px;
+  }
+  .card-content {
+    flex-direction: column;
+  }
+  .card-badge {
+    margin: 12px 0 0;
+    max-width: 60px;
+    text-align: center;
+  }
+  body {
+    margin: 0 0 50px;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+
+  .card {
+    flex-direction: column;
+  }
+  .card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .card-content {
+    width: auto;
+  }
+  .mobile-img {
+    display: block;
+    max-width: 85%;
+  }
+  .intro-content {
+    transform: scale(.7);
+    margin: 0;
+    max-width: 80%;
+  }
+  .intro-text {
+    background: none;
+  }
+
+  .intro-heading {
+    margin: auto;
+  }
+}
