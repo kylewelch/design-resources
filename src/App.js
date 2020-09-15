@@ -1,6 +1,6 @@
 import React from 'react';
 import CardSection from './CardSection.js'
-import logo from  './img/logo.svg'
+import logo from  './img/logoMerlin.svg'
 import main from './img/mainImg.svg'
 import main1 from './img/main1.svg'
 import main2 from './img/main2.svg'
@@ -14,11 +14,11 @@ function App() {
     <div className="App">
           <div className="top-nav">
             <div className="logo-container">
-              <img className="logo" src={logo} />
+              <img className="logo" src={logo} alt="Merlin logo" />
             </div>
           </div>
       <div className="intro-section">
-        <img className="mobile-img" src={main} />
+        <img className="mobile-img" src={main} alt="Design resources" />
         <h1 className="mobile-heading">Learn any design skill for free</h1>
         <div className="intro-content">
           <div className="intro-text">
@@ -27,10 +27,10 @@ function App() {
             <p className="intro-sub-heading">A collection of the best resources on the web.</p>
           </div>
           <div className="intro-image">
-            <img className="intro4" src={main4}></img>
-            <img className="intro1" src={main1}></img>
-            <img className="intro2" src={main2}></img>
-            <img className="intro3" src={main3}></img>
+            <img className="intro4" src={main4} alt="design resource"></img>
+            <img className="intro1" src={main1} alt="design resource"></img>
+            <img className="intro2" src={main2} alt="design resource"></img>
+            <img className="intro3" src={main3} alt="design resource"></img>
           </div>
         </div>
         

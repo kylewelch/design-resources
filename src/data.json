@@ -22,6 +22,13 @@
       "urls": ["https://growth.design/", "https://www.coursera.org/learn/ux-design-fundamentals", "https://lawsofux.com/"]
     },
     {
+      "id": "UI Design",
+      "titles": ["Visual Elements of User Interface Design", "Checklist Design", "How to become a self-taught UI/UX designer"],
+      "descriptions": ["A free online university-level course in UI design.", "A collection of best practices for designing interfaces.", "Lessons and advice from a self-taught designer."],
+      "types": ["course", "website", "article"],
+      "urls": ["https://www.coursera.org/learn/visual-elements-user-interface-design", "https://www.checklist.design/", "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c"]
+    },
+    {
       "id": "Coding",
       "titles": ["Practical JavaScript", "Harvard’s Introduction to Computer Science", "Codecademy"],
       "descriptions": ["Insanely great course on learning how to code.", "Take a full Harvard computer science course online for free.", "Fun, interactive coding tutorials."],
@@ -41,13 +48,6 @@
       "descriptions": ["Expert advice on how to lead your team and advance your career.", "Discover principles that guide great design teams around the world.", "Practices, research, and tools to improve your people processes."],
       "types": ["ebook", "website", "toolkit"],
       "urls": ["https://www.designbetter.co/design-leadership-handbook", "https://principles.design/", "https://rework.withgoogle.com/guides/"]
-    },
-    {
-      "id": "UI Design",
-      "titles": ["Visual Elements of User Interface Design", "Checklist Design", "How to become a self-taught UI/UX designer"],
-      "descriptions": ["A free online university-level course in UI design.", "A collection of best practices for designing interfaces.", "Lessons and advice from a self-taught designer."],
-      "types": ["course", "website", "article"],
-      "urls": ["https://www.coursera.org/learn/visual-elements-user-interface-design", "https://www.checklist.design/", "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c"]
     },
     {
       "id": "User Research",
